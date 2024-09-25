@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar with Dropdown</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- front awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="nav-color">
+        <header class="navbody">
+            <nav class="navbar">
+                <div class="brand">
+                    <a href="#">
+                        <img class="footer-logo" src="./img/download-removebg-preview (2).png" alt="Logo">
+                    </a>
+                </div>
+                <button class="toggle-open" id="navOpen">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <button class="toggle-close" id="navOff">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="navbar-links" id="navbarLinks">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Servise</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- modal -->
+                <div class="modal-off">
+                    <!-- Trigger/Open The Modal -->
+                    <button id="myBtn">Open Modal</button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <img src="./img/rider.svg" alt=""
+                                style="display: flex; width: 400px; padding-bottom: 50px; justify-content: center; margin: 0 auto;">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores doloremque distinctio
+                                placeat alias minima at delectus itaque odit esse eos excepturi atque, laboriosam neque
+                                libero commodi eius quia cumque tempore dolor eaque vero consequatur sint aliquam.
+                                Suscipit similique, nemo, aliquid earum saepe magnam quaerat consectetur eum id at
+                                dolorem? Voluptatibus laboriosam obcaecati reiciendis nobis dolore fuga deleniti hic.
+                                Voluptate, facere vel? Porro, rerum nesciunt nihil nulla, inventore delectus magni
+                                consequuntur in est repellendus sequi a laborum suscipit animi fugit natus alias
+                                provident aliquam. Laudantium libero ullam ratione eveniet reprehenderit blanditiis
+                                maxime, voluptatum unde vero alias tempora eius et fuga nostrum aspernatur culpa.
+                                Cumque, dignissimos magnam distinctio dolore fuga voluptatem laboriosam ea odio est
+                                quisquam. Ducimus tempore impedit tempora similique iste soluta! Neque inventore placeat
+                                aperiam dicta beatae adipisci sit modi quae ea sed, fugiat quibusdam id blanditiis ad
+                                minus recusandae mollitia error autem officiis similique rem quia labore iste nobis.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <section class="navbody" id="hero-section">
+        <div class="banner">
+            <div class="overlay"></div>
+            <div class="banner-content">
+                <h1>Welcome to Your Website</h1>
+                <p>We Deliver
+                    Parcel on Time with no Hassle</p>
+                <a href="#learn-more">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="servises-section">
+        <div class="navbody">
+            <h1>Our Service</h1>
+            <div class="grid-servises">
+                <div class="card">
+                    <img src="./img/ecom_delivry.svg" alt="">
+                    <div class="content">
+                        <h3>Ecommerce Delivery</h3>
+                        <p>Steadfast Courier gives you the opportunity of unlimited pickup.</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/packeging.svg" alt="">
+                    <div class="content">
+                        <h3>Pick and Drop</h3>
+                        <p>Steadfast Courier gives you the opportunity of unlimited pickup.</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/pick_n_drop.svg" alt="">
+                    <div class="content">
+                        <h3>Packging</h3>
+                        <p>Steadfast Courier gives you the opportunity of unlimited pickup.</p>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/warehouse.svg" alt="">
+                    <div class="content">
+                        <h3>Warehousing</h3>
+                        <p>Steadfast Courier gives you the opportunity of unlimited pickup.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-footer" style="background-color: rgba(0, 0, 0, 0.747);">
+        <div class="navbody">
+            <footer class="footer">
+                <div class="container">
+                    <a href="#">
+                        <img class="footer-logo" src="./img/download-removebg-preview (2).png" alt="Logo">
+                    </a>
+
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Home</a>
+                        <a href="#" class="footer-link">About</a>
+                        <a href="#" class="footer-link">Servises</a>
+                        <a href="#" class="footer-link">Contact</a>
+
+                    </div>
+
+                    <p class="footer-copyright">© Copyright 2023 Meraki UI. </p>
+                </div>
+            </footer>
+
+
+        </div>
+
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
